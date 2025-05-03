@@ -37,7 +37,7 @@ foreach ($domain in $directDomains) {
 $pacContent += "}"
 
 # Save the PAC file
-$pacFilePath = "C:\Users\jlhurd\Downloads\Autopilot_Pre-login.pac"
+$pacFilePath = "C:\<INSERT PATH HERE>\Autopilot_Pre-login.pac"
 $pacContent | Out-File -FilePath $pacFilePath -Encoding ASCII
 
 Write-Host "PAC file generated successfully at $pacFilePath"
