@@ -22,9 +22,6 @@ $directDomains += "cs.dds.microsoft.com"
 $directDomains += "crl.microsoft.com"
 $directDomains += "ocsp.digicert.com"
 
-# SentinelOne usea1-020
-$directDomains += "usea1-020.sentinelone.net"
-
 # Start building the PAC file content
 $pacContent = @"
 function FindProxyForURL(url, host) {
